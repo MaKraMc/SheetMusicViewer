@@ -209,8 +209,9 @@ jobs:
 
       - name: debug tree
         run: |
-          "ls -R"
-          "ls -R ./artifacts"
+          "pwd"
+          "ls"
+          "ls ./artifacts"
         continue-on-error: true
 
       - name: Build flatpak for Linux
