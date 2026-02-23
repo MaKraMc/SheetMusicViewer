@@ -26,7 +26,7 @@
       "sources": [
         {
           "type": "archive",
-          "path": "artifacts/SheetMusicViewer-linux-x64/SheetMusicViewer-linux-x64.tar.gz",
+          "path": "/__w/SheetMusicViewer/SheetMusicViewer/artifacts/SheetMusicViewer-linux-x64/SheetMusicViewer-linux-x64.tar.gz",
           "strip-components": 0
         },
         {

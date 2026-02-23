@@ -208,6 +208,7 @@ jobs:
           path: artifacts
 
       - name: debug tree
+        shell: bash
         run: |
           "pwd"
           "ls"
@@ -216,6 +217,7 @@ jobs:
 
       - name: Build flatpak for Linux
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
+        shell: bash
         with:
           bundle: SheetMusicViewer.flatpak
           manifest-path: flatpak/com.calvinhsia.sheetmusicviewer.json
