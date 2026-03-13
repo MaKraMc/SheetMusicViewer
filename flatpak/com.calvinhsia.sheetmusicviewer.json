@@ -15,7 +15,6 @@
       "name": "sheetmusicviewer",
       "buildsystem": "simple",
       "build-commands": [
-        "ls",
         "install -Dm755 SheetMusicViewer /app/bin/SheetMusicViewer",
         "install -Dm644 com.calvinhsia.sheetmusicviewer.desktop /app/share/applications/com.calvinhsia.sheetmusicviewer.desktop",
         "cp -r icons /app/share/icons",
@@ -24,7 +23,7 @@
       "sources": [
         {
           "type": "archive",
-          "path": "/__w/SheetMusicViewer/SheetMusicViewer/artifacts/SheetMusicViewer-linux-x64/SheetMusicViewer-linux-x64.tar.gz",
+          "path": "../artifacts/SheetMusicViewer-linux-x64/SheetMusicViewer-linux-x64.tar.gz",
           "strip-components": 0
         },
         {
