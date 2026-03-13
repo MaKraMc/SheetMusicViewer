@@ -207,14 +207,6 @@ jobs:
         with:
           path: artifacts
 
-      - name: debug tree
-        shell: bash
-        run: |
-          "pwd"
-          "ls"
-          "ls ./artifacts"
-        continue-on-error: true
-
       - name: Build flatpak for Linux
         uses: flatpak/flatpak-github-actions/flatpak-builder@v6
         with:
