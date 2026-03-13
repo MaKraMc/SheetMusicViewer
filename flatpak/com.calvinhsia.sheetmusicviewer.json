@@ -20,7 +20,7 @@
         "ls",
         "install -Dm755 SheetMusicViewer /app/bin/SheetMusicViewer",
         "install -Dm644 com.calvinhsia.sheetmusicviewer.desktop /app/share/applications/com.calvinhsia.sheetmusicviewer.desktop",
-        "install -Dm644 Music.ico /app/share/icons/hicolor/512x512/apps/com.calvinhsia.sheetmusicviewer.png",
+        "cp -r icons /app/share/icons",
         "cp -r Assets /app/bin/Assets"
       ],
       "sources": [
@@ -31,7 +31,7 @@
         },
         {
           "type": "dir",
-          "path": "."
+          "path": "./files"
         }
       ]
     }
